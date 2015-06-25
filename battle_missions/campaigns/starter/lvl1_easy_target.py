@@ -12,5 +12,5 @@ MAP_ELEMENTS = [
 DEFENDERS = [
     command_center(level=1, tile_position=[20, 18], player_id=0),
     crystalite_farm(level=1, tile_position=[20, 14], player_id=0),
-    crystalite_farm(level=1, tile_position=[20, 123], player_id=0),
+    crystalite_farm(level=1, tile_position=[20, 23], player_id=0),
 ]
