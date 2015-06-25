@@ -1,3 +1,5 @@
+__author__ = 'bryukh'
+
 from battle_mocks import *
 
 TIME_LIMIT = 30
