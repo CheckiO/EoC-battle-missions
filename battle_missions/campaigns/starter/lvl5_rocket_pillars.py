@@ -25,7 +25,7 @@ MISSION_DATA[TERM.MAP_ELEMENTS] = [
     rocket_tower(level=2, tile_position=[22, 0], player_id=0, code_id=TOWER_CODE_ID),
     rocket_tower(level=2, tile_position=[24, 0], player_id=0, code_id=TOWER_CODE_ID),
     rocket_tower(level=2, tile_position=[20, 38], player_id=0, code_id=TOWER_CODE_ID),
-    rocket_tower(level=2, tile_position=[20, 40], player_id=0, code_id=TOWER_CODE_ID),
-    rocket_tower(level=2, tile_position=[20, 42], player_id=0, code_id=TOWER_CODE_ID),
+    rocket_tower(level=2, tile_position=[22, 38], player_id=0, code_id=TOWER_CODE_ID),
+    rocket_tower(level=2, tile_position=[24, 38], player_id=0, code_id=TOWER_CODE_ID),
 ]
 
