@@ -2,7 +2,7 @@ __all__ = ["SHOOT_FIRST_CODE"]
 
 PY_TOWER_SHOOT_FIRST_CODE = {
     "id": 1000,
-    "code": """"
+    "code": """
 from battle import commander
 
 tower_client = commander.Client()
