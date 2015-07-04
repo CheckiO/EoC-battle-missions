@@ -22,10 +22,10 @@ MISSION_DATA[TERM.MAP_ELEMENTS] = [
     # CC
     command_center(level=1, tile_position=[20, 18], player_id=0),
     # Buildings
-    crystalite_farm(level=2, tile_position=[20, 0], player_id=0),
-    crystalite_farm(level=2, tile_position=[20, 3], player_id=0),
-    crystalite_farm(level=2, tile_position=[20, 34], player_id=0),
-    crystalite_farm(level=2, tile_position=[20, 37], player_id=0),
+    crystalite_farm(level=1, tile_position=[20, 0], player_id=0),
+    crystalite_farm(level=1, tile_position=[20, 3], player_id=0),
+    crystalite_farm(level=1, tile_position=[20, 34], player_id=0),
+    crystalite_farm(level=1, tile_position=[20, 37], player_id=0),
     # Towers
     machine_gun_tower(level=3, tile_position=[29, 1], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 6], player_id=0, code_id=TOWER_CODE_ID),
