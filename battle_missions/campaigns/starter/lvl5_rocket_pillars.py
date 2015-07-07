@@ -1,7 +1,3 @@
-from battle_missions.utils import template, battle_codes
-
-__author__ = 'bryukh'
-
 from copy import deepcopy
 
 from battle_mocks import *
