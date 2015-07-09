@@ -18,5 +18,6 @@ MISSION_DATA = {
     # Player Codes
     'codes': [
         battle_codes.PY_TOWER_SHOOT_FIRST_CODE,
+        battle_codes.PY_TOWER_SHOOT_WEAKEST,
     ],
 }
