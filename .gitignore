@@ -57,3 +57,8 @@ target/
 verification/*.py[cod]
 
 .idea
+
+# JS
+
+bower_components
+node_modules
