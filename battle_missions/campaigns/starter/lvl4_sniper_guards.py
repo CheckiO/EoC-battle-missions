@@ -21,5 +21,5 @@ MISSION_DATA[TERM.MAP_ELEMENTS] = [
     command_center(level=4, tile_position=[25, 18], player_id=0),
     sentry_tower(level=1, tile_position=[25, 14], player_id=0, code_id=TOWER_CODE_ID),
     sentry_tower(level=1, tile_position=[25, 23], player_id=0, code_id=TOWER_CODE_ID),
-    sentry_tower(level=2, tile_position=[21, 18], player_id=0, code_id=TOWER_CODE_ID),
+    sentry_tower(level=1, tile_position=[21, 18], player_id=0, code_id=TOWER_CODE_ID),
 ]
