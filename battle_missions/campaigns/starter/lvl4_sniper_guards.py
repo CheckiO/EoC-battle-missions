@@ -18,8 +18,8 @@ MISSION_DATA[TERM.MAP_ELEMENTS] = [
     obstacle(tile_position=[0, 0], size=20),
     obstacle(tile_position=[0, 20], size=20),
     # Defenders
-    command_center(level=4, tile_position=[25, 18], player_id=0),
+    command_center(level=4, tile_position=[21, 18], player_id=0),
     sentry_tower(level=1, tile_position=[25, 14], player_id=0, code_id=TOWER_CODE_ID),
     sentry_tower(level=1, tile_position=[25, 23], player_id=0, code_id=TOWER_CODE_ID),
-    sentry_tower(level=1, tile_position=[21, 18], player_id=0, code_id=TOWER_CODE_ID),
+    sentry_tower(level=1, tile_position=[25, 18], player_id=0, code_id=TOWER_CODE_ID),
 ]
