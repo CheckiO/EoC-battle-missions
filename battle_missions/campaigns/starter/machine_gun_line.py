@@ -31,6 +31,8 @@ MISSION_DATA[TERM.MAP_ELEMENTS] = [
     machine_gun_tower(level=3, tile_position=[29, 7], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 9], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 11], player_id=0, code_id=TOWER_CODE_ID),
+    machine_gun_tower(level=3, tile_position=[29, 13], player_id=0, code_id=TOWER_CODE_ID),
+    machine_gun_tower(level=3, tile_position=[29, 15], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 17], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 21], player_id=0, code_id=TOWER_CODE_ID),
     machine_gun_tower(level=3, tile_position=[29, 23], player_id=0, code_id=TOWER_CODE_ID),
