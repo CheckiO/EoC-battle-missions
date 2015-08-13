@@ -12,7 +12,7 @@ TOWER_CODE_ID = battle_codes.PY_TOWER_SHOOT_FIRST_CODE[TERM.ID]
 
 MISSION_DATA = deepcopy(template.MISSION_DATA)
 
-MISSION_DATA[TERM.TIME_LIMIT] = 30
+MISSION_DATA[TERM.TIME_LIMIT] = 60
 MISSION_DATA[TERM.MAP_ELEMENTS] = [
     # Nature
     obstacle(tile_position=[0, 0], size=20),
