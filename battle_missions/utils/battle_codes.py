@@ -48,7 +48,7 @@ def search_next_target(data, **kwargs):
 def unit_in_firing_range(data, **kwargs):
     global current_id
     if current_id:
-        if data[id] == current_id:
+        if data['id'] == current_id:
             tower_client.attack_item(data['id'])
         else:
             tower_client.attack_item(
