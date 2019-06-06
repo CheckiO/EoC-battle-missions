@@ -13,14 +13,14 @@ def search_next_target(data, **kwargs):
     if enemies:
         unit_in_firing_range(enemies[0])
     else:
-        tower_client.subscribe_enemy_in_my_firing_range(unit_in_firing_range)
+        tower_client.when_enemy_in_range(unit_in_firing_range)
 
 
 def unit_in_firing_range(data, **kwargs):
     tower_client.attack_item(data['id'])
-    tower_client.subscribe_im_idle(search_next_target)
+    tower_client.when_im_idle(search_next_target)
 
-tower_client.subscribe_enemy_in_my_firing_range(unit_in_firing_range)
+tower_client.when_enemy_in_range(unit_in_firing_range)
 """
 }
 
@@ -42,7 +42,7 @@ def search_next_target(data, **kwargs):
         weakest = min(enemies, key=lambda x: x["hit_points"])
         unit_in_firing_range(weakest)
     else:
-        tower_client.subscribe_enemy_in_my_firing_range(unit_in_firing_range)
+        tower_client.when_enemy_in_range(unit_in_firing_range)
 
 
 def unit_in_firing_range(data, **kwargs):
@@ -59,9 +59,9 @@ def unit_in_firing_range(data, **kwargs):
         current_id = data["id"]
         tower_client.attack_item(data["id"])
     tower_client.unsubscribe_all()
-    tower_client.subscribe_im_idle(search_next_target)
+    tower_client.when_im_idle(search_next_target)
 
 
-tower_client.subscribe_enemy_in_my_firing_range(unit_in_firing_range)
+tower_client.when_enemy_in_range(unit_in_firing_range)
 """
 }
